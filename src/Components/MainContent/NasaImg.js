@@ -1,12 +1,12 @@
 import React from 'react';
-import Explanation from './Explanation';
+import styled, { keyframes } from 'styled-components';
 
 export default function NasaImg(props){
     const {src, explanation, title} = props
     return(
         <div>
             <img src={src} alt={title}/>
-            <Explanation explanation={explanation} />
+            <p>{explanation}</p>
         </div>
     )
 }
