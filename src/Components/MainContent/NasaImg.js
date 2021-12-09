@@ -1,10 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
-const kf = keyframes`
-
-`;
-
 const StyledDiv = styled.div`
     background-color: ${props => props.theme.primaryColor};
     padding: 4% 2%;
